@@ -1,0 +1,53 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Mon Dec 05 08:00:48 2022
+[*]
+[dumpfile] "D:\CPP Stuff\CS3650\Prj1_Certified_Preowned_Processor\ProcessorTopTb.vcd"
+[dumpfile_mtime] "Mon Dec 05 07:37:46 2022"
+[dumpfile_size] 7906
+[savefile] "D:\CPP Stuff\CS3650\Prj1_Certified_Preowned_Processor\prj1_waveform.gtkw"
+[timestart] 0
+[size] 1002 644
+[pos] 128 -47
+*-4.907605 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] ProcessorTopTb.
+[treeopen] ProcessorTopTb.uut.
+[sst_width] 206
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 222
+@28
+ProcessorTopTb.clk
+ProcessorTopTb.rst_n
+@22
+ProcessorTopTb.uut.prg_cntr.in_address[31:0]
+ProcessorTopTb.uut.prg_cntr.out_address[31:0]
+ProcessorTopTb.uut.instr_mem.instrn_address[31:0]
+ProcessorTopTb.uut.instr_mem.instrn[31:0]
+ProcessorTopTb.uut.regfile.read_addr1[4:0]
+ProcessorTopTb.uut.regfile.read_data1[31:0]
+ProcessorTopTb.uut.regfile.read_addr2[4:0]
+ProcessorTopTb.uut.regfile.read_data2[31:0]
+@28
+ProcessorTopTb.uut.regfile.write_en
+@22
+ProcessorTopTb.uut.regfile.write_addr[4:0]
+ProcessorTopTb.uut.regfile.write_data[31:0]
+ProcessorTopTb.uut.sign_ext.bits16_in[15:0]
+ProcessorTopTb.uut.sign_ext.bits32_out[31:0]
+ProcessorTopTb.uut.shifter.indata[31:0]
+ProcessorTopTb.uut.shifter.outdata[31:0]
+ProcessorTopTb.uut.alu.A[31:0]
+ProcessorTopTb.uut.alu.B[31:0]
+ProcessorTopTb.uut.alu.result[31:0]
+@28
+ProcessorTopTb.uut.alu.zero
+@22
+ProcessorTopTb.uut.data_mem.address[31:0]
+@28
+ProcessorTopTb.uut.ctrl_datamem_write_en
+@22
+ProcessorTopTb.uut.data_mem.write_data[31:0]
+ProcessorTopTb.uut.datamem_read_data[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
