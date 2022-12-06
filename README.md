@@ -62,5 +62,13 @@
 >> - The sum from the ALU is used as the address for the data memory.
 >> - The data from the memory unit is written into the register file; the register destination is given by bits 20:16 of the instruction ($t1).
 
+## Simulating the Processor
+> Given the following MIPS instructions with 11 stored in $t1 and 22 stored in $t2:
+>> 00: add $t1, $t2, $t3        
+>> 04: lw $t1, $t2, 16'd4
+>> 08: beq $t1, $t2, offset
+>> 0C: add $t1, $t2, $t3
+>> 10: or $t2, $t3, $t4
+>> 14: sw $t1, $t2, offset
 
 
