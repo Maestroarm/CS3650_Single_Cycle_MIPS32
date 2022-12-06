@@ -64,11 +64,25 @@
 
 ## Simulating the Processor
 > Given the following MIPS instructions with 11 stored in $t1 and 22 stored in $t2:
+
 >> 00: add $t1, $t2, $t3        
+
 >> 04: lw $t1, $t2, 16'd4
+
 >> 08: beq $t1, $t2, offset
+
 >> 0C: add $t1, $t2, $t3
+
 >> 10: or $t2, $t3, $t4
+
 >> 14: sw $t1, $t2, offset
+
+> The testbench simulates the processor and produces the following waveform
+>> ![waveform](https://user-images.githubusercontent.com/77359793/205808115-5dba27c5-846d-403c-8391-80101116cd5f.png)
+> Taking the first instruction, **00: add $t1, $t2, $t3**, the waveform has an *in_addres*s incremented by 4 at 30sec and an *out_address* of 00000000, the previous address. *read_addr1* and *read_addr2* are holding the address of *$t1 and $t2* respectively, and *read_data1* and *read_data2* are holding the data stored in *$t1* and *$t2*. The correct value appears in *result* after the ALU performs addition. *write_addr* holds the address of *$t3* and *write_en* is set to 1, meaning that the data is being written. Finally, write_data holds the correct sum, 0033h. From this we can see that the first instruction was executed correctly within a clock cycle, and upon further inspection the following instructions are as well. The addresses are increment by 4 every clock cycle, and the correct instructions are read out. 
+
+
+## Contributions 
+> - Gaia: Researched for and wrote the README.md; attempted the extra credit portion of the project. 
 
 
