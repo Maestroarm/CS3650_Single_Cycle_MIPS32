@@ -84,5 +84,5 @@
 
 ## Contributions 
 > - Gaia: Researched for and wrote the README.md; attempted the extra credit portion of the project. 
-
+> - Artak: Researched possible solutions for a single-cycle MIPS 32-bit processor and implemented it, producing a GTKWave VCD waveform.
 
